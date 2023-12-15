@@ -11,6 +11,20 @@ export type Team = {
                 favorite_food: string,
             }
             id: string,
+            office: any
+        }>
+    }>
+};
+
+export type Office = {
+    items: Array<{
+        offices: Array<{
+            value: {
+                street: string,
+                street_number: string,
+                city: string,
+            }
+            id: string,
         }>
     }>
 };

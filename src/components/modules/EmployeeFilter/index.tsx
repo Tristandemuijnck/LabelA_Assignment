@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Button } from 'common';
 
 import { FilterContainer } from './styled';
-import { log } from 'console';
 
 export const EmployeeFilter = ({ employeeFunctions, onFilter }) => {
 
