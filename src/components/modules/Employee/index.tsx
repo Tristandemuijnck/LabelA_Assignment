@@ -34,8 +34,8 @@ export const Employee = ({ employee }) => {
       <Modal.Container>
         <p>{employee.value.name}</p>
         <p>{employee.value.function}</p>
-        <p>{employee.office.value.street}</p>
-        <p>{employee.office.value.city}</p>
+        <p>{employee.office?.value?.street}</p>
+        <p>{employee.office?.value?.city}</p>
       </Modal.Container>
     </Modal.Root>
   );
